@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="application.CFprintReportScreenController">
+    <Label text="탄소 발자국 리포트 화면" />
+</StackPane>

@@ -1,0 +1,14 @@
+/* 예제 CSS 스타일 */
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+#seedButton {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: #000000;
+}
+
+#worldButton, #missionsButton, #reportButton {
+    -fx-background-color: transparent;
+}

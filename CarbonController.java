@@ -89,7 +89,7 @@ public class CarbonController implements Initializable {
     private double calculateCarbonFootprint(double minutes, String type) {
         switch (type) {
             case "entertainment":
-                return (minutes / 30) * 1.6;
+                return (minutes / 30) * 0.018;
             case "social":
                 double messagesPerMinute = 125 / 60.0;
                 double carbonPerMessage = 0.014;
